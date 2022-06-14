@@ -55,5 +55,5 @@ func main() {
 	router := gin.Default()
 	router.POST("/fromMorse/:mor", getMorse)
 	router.POST("/fromString/:mor", getString)
-	router.Run("localhost:9090")
+	router.Run()
 }
